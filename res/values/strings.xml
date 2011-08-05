@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NotApadActivity!</string>
+    <string name="app_name">-Not A Pad-</string>
+    <string name="no_notes">Empty Notes!!</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="logout">Logout</string>
+    <string name="menu_delete">Press To delete note</string>
+    <string name="title">Title</string>
+    <string name="body">Content</string>
+    <string name="ok">Save!</string>
+    <string name="edit">Edit Note</string>
+</resources>

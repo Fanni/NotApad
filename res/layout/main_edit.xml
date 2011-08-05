@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <TextView android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:text="@string/title" />
+      
+  <LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <EditText android:id="@+id/title" 
+      android:layout_height="wrap_content" android:layout_weight="0.91" android:focusable="true" android:layout_width="wrap_content"/>
+  </LinearLayout>
+
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+      android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/body" />
+  <EditText android:id="@+id/body" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" android:layout_weight="0.83"/>
+  <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+      <Button android:id="@+id/ok" 
+    android:text="@string/ok"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+  </LinearLayout>
+  
+  
+
+</LinearLayout>
